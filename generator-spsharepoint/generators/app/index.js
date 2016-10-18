@@ -16,14 +16,14 @@ module.exports = yeoman.Base.extend({
       name: 'siteurl',
       message: 'Enter Sharepoint Site Url',
       required: true,
-      default: 'http://www.shaeroint.com/'
+      default: 'http://www.sharepoint.com/'
     },      
       {
       type: 'input',
       name: 'libraryurl',
       message: 'Enter SharePoint Libarary Url where files will be hosted',
       required: true,
-      default: 'http://www.shaeroint.com/Style%20Library'
+      default: 'http://www.shareopint.com/Style%20Library'
     },
     {
       type: 'input',
