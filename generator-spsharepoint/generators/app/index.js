@@ -17,7 +17,7 @@ module.exports = yeoman.Base.extend({
       message: 'Enter Sharepoint Site Url',
       required: true,
       default: 'http://www.sharepoint.com/'
-    },      
+    },       
       {
       type: 'input',
       name: 'libraryurl',
