@@ -23,7 +23,7 @@ module.exports = yeoman.Base.extend({
       name: 'libraryurl',
       message: 'Enter SharePoint Libarary Url where files will be hosted',
       required: true,
-      default: 'http://www.shareopint.com/Style%20Library'
+      default: 'http://www.sharepoint.com/Style%20Library'
     },
     {
       type: 'input',
