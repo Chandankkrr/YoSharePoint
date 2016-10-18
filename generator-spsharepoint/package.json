@@ -1,0 +1,58 @@
+{
+  "name": "generator-spsharepoint",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Chandan Rauniyar",
+    "email": "chandankkrr@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.23.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.0",
+    "jquery": "^3.1.0",
+    "robocopy": "^0.1.15",
+    "spsave": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.14.0",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-spsave": "^3.0.0",
+    "jquery": "^3.1.1",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0",
+    "robocopy": "^0.1.15",
+    "spsave": "^3.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "Chandankkrr/generator-spsharepoint",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
